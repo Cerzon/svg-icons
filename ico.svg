@@ -1,0 +1,41 @@
+<svg 
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 625 600"
+>
+    <defs>
+        <style>
+            .yellow-fig {
+                fill: #f7ca52;
+                stroke: none;
+            }
+            .blue-fig {
+                fill: #4e88ec;
+                stroke: #4e88ec;
+            }
+            .half-shadow {
+                fill: #3779eb;
+                stroke: #3779eb;
+            }
+            .full-shadow {
+                fill: #1664e6;
+                stroke: #1664e6;
+            }
+        </style>
+    </defs>
+    <g stroke-width="1">
+        <path d="M301 450l-112.5-112.5q 12.5 12.5 37.5 12.5h175l50 50q0 50-50 50z"
+            class="full-shadow" />
+        <path d="M76 599v-149h-25q-25 0-37.5-12.5l162.5-137.5q0 25 12.5 37.5l112.5 112.5h-75z"
+            class="half-shadow" />
+        <path d="M13.5 437.5q-12.5-12.5-12.5-37.5v-250q0-50 50-50h125v200z"
+            class="blue-fig" />
+    </g>
+    <path d="M551 500l-150-150h-175q-50 0-50-50v-250q0-50 50-50h349q50 0 50 50v250q0 50-50 50h-24z"
+        class="yellow-fig" />
+    <g fill="#ffffff">
+        <circle cx="300" cy="180" r="27" />
+        <circle cx="400" cy="180" r="27" />
+        <circle cx="500" cy="180" r="27" />
+    </g>
+</svg>

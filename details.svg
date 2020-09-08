@@ -1,0 +1,45 @@
+<svg 
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 470 550"
+>
+    <defs>
+        <style>
+            .main-blue {
+                fill: #6597ee;
+                stroke: #6597ee;
+            }
+            .shadow-blue {
+                fill: #4b83e1;
+                stroke: #4b83e1;
+            }
+            .light-blue {
+                fill: #83abf0;
+                stroke: #83abf0;
+            }
+            .light-line {
+                fill: none;
+                stroke: #bed8fd;
+                stroke-width: 12;
+            }
+            .whole-icon {
+                cursor: pointer;
+            }
+            .whole-icon:hover .light-line {
+                stroke: #ffffff;
+            }
+        </style>
+    </defs>
+    <g class="whole-icon">
+    <g stroke-width="1">
+        <path d="M469 131v105l-117.5-117.5q12.5 12.5 37.5 12.5z"
+            class="shadow-blue" />
+        <path d="M1 51q0-50 50-50h288v80q0 25 12.5 37.5l117.5 117.5v263q0 50-50 50h-368q-50 0-50-50z"
+            class="main-blue" />
+        <path d="M339 1h2l128 128v2h-80q-50 0-50-50z"
+            class="light-blue" />
+    </g>
+    <path d="M125 160h220m0 90h-220m0 90h220m0 90h-220"
+        class="light-line" />
+    </g>
+</svg>
