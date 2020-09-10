@@ -1,0 +1,10 @@
+<svg 
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 200 200"
+>
+    <circle cx="100" cy="100" r="100"
+        fill="#57b287" />
+    <path d="M100 0c55 0 100 45 100 100s-45 100-100 100z"
+        fill="#67bf95" />
+</svg>

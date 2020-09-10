@@ -1,0 +1,33 @@
+<svg 
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 2330 950"
+>
+    <defs>
+        <style>
+            .browser-address {
+                fill: #afafaf;
+                font-family: 'Roboto', sans-serif;
+                font-size: 40px;
+            }
+        </style>
+    </defs>
+    <path d="M0 950v-930q0-20 20-20h2290q20 0 20 20v930z"
+        fill="#e9e9e9"/>
+    <path d="M0 950v-810h2330v810h-115v-585h-2100v585h-115z
+             M115 220v85h170v-85h-170z
+             M415 220v85h1800v-85h-1800z
+             M310 44q0-20 20-20h1865q20 0 20 20v53q0 20-20 20h-1865q-20 0-20-20z"
+        fill="white"/>
+    <line x1="2151" y1="70" x2="2185" y2="70"
+        stroke="#8a8a8a" stroke-width="8"/>
+    <line x1="2168" y1="53" x2="2168" y2="87"
+        stroke="#8a8a8a" stroke-width="8"/>
+    <circle cx="65" cy="70" r="24"
+        fill="#df7065"/>
+    <circle cx="148" cy="70" r="24"
+        fill="#e6bb46"/>
+    <circle cx="231" cy="70" r="24"
+        fill="#5bcc8b"/>
+    <text x="340" y="82" class="browser-address">cssauthor.com</text>
+</svg>
