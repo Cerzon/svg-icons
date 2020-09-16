@@ -5,21 +5,23 @@
 >
     <defs>
         <style>
-            .around-shape {
+            .svg-ico-chevron-left-around-shape {
                 fill: none;
                 stroke: currentColor;
                 stroke-width: 4;
             }
-            .around-shape:hover {
+            .svg-ico-chevron-left:hover .svg-ico-chevron-left-around-shape {
                 fill: currentColor;
-                fill-opacity: 0.1;
+                fill-opacity: 0.2;
             }
         </style>
     </defs>
-    <circle cx="63" cy="63" r="61"
-        class="around-shape"/>
-    <path d="M72 42l-21 21l21 21"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="8" />
+    <g class="svg-ico-chevron-left">
+        <circle cx="63" cy="63" r="61"
+            class="svg-ico-chevron-left-around-shape"/>
+        <path d="M72 42l-21 21l21 21"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="8" />
+    </g>
 </svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="70"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+  <filter id="Blur"><feGaussianBlur stdDeviation="3" /></filter>
+  <text style="font-family:sans,helvetica;font-weight:bold;font-size:12pt"
+      id="Text"><tspan x="12" y="19">
+        Black text with white shadow
+    </tspan></text>
+  </defs>
+  <rect style="fill:#8AB" width="640" height="70" />
+  <use style="fill:white;" filter="url(#Blur)" xlink:href="#Text"
+      transform="translate(5,7)"/>
+  <use style="fill:black;" xlink:href="#Text"/>
+</svg>
